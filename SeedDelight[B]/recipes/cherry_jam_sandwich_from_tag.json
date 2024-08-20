@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "seeddelight:cherry_jam_sandwich_from_tag"
+        },
+        "pattern": [
+            "ab",
+            "b"
+        ],
+        "key": {
+            "b": {
+                "tag": "farmersdelight:bread"
+            },
+            "a": {
+                "item": "seeddelight:cherry_jam_jar"
+            }
+        },
+        "result": [
+            {
+                "count": 2,
+                "item": "seeddelight:cherry_jam_sandwich"
+            },
+            {
+                "item": "minecraft:glass_bottle"
+            }
+        ],
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

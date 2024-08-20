@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "components": {
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
+      },
+      "minecraft:food": {
+        "nutrition": 10,
+        "saturation_modifier": 0.6,
+        "using_converts_to": "minecraft:bowl",
+        "can_always_eat": false
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:icon": {
+        "textures": {
+          "default": "roasted_beef_with_seed"
+        }
+      }
+    },
+    "description": {
+      "identifier": "seeddelight:roasted_beef_with_seed",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "num_mip_levels": 4,
+    "padding": 8,
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "rosehip_pie_top": {
+            "textures": "textures/blocks/rosehip_pie_top"
+        },
+        "rosehip_pie_inner": {
+            "textures": "textures/blocks/rosehip_pie_inner"
+        },
+        "rosehip_crate_top": {
+            "textures": "textures/blocks/rosehip_crate_top"
+        },
+        "rosehip_crate_side": {
+            "textures": "textures/blocks/rosehip_crate_side"
+        },
+        "pinecone_bag_top": {
+            "textures": "textures/blocks/pinecone_bag_top"
+        },
+        "cherry_crate_top": {
+            "textures": "textures/blocks/cherry_crate_top"
+        },
+        "cherry_crate_side": {
+            "textures": "textures/blocks/cherry_crate_side"
+        },
+        "bag_side_tied": {
+            "textures": "textures/blocks/rice_bag_side_tied"
+        },
+        "acorn_bag_top": {
+            "textures": "textures/blocks/acorn_bag_top"
+        },
+        "acorn_bag_side": {
+            "textures": "textures/blocks/acorn_bag_side"
+        }
+    },
+    "texture_name": "atlas.terrain"
+}

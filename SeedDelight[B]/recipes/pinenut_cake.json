@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "seeddelight:pinenut_cake"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:wheat"
+            },
+            {
+                "item": "seeddelight:pine_nut_kernel"
+            }
+        ],
+        "result": {
+            "count": 1,
+            "item": "seeddelight:pinenut_cake"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "seeddelight:furnace_fried_sunflower_seed"
+        },
+        "input": "seeddelight:sunflower_seed",
+        "output": "seeddelight:fried_sunflower_seed",
+        "tags": [
+            "furnace"
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "seeddelight:rosehip_pie_from_milk_bucket"
+        },
+        "key": {
+            "a": {
+                "item": "seeddelight:rosehip"
+            },
+            "b": {
+                "item": "minecraft:milk_bucket"
+            },
+            "c": {
+                "item": "minecraft:sugar"
+            },
+            "d": {
+                "item": "farmersdelight:pie_crust"
+            }
+        },
+        "pattern": [
+            "aaa",
+            "bbb",
+            "cdc"
+        ],
+        "result": [
+            {
+                "count": 1,
+                "item": "seeddelight:rosehip_pie"
+            },
+            {
+                "item": "minecraft:bucket"
+            }
+        ],
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

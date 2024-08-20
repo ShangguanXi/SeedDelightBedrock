@@ -1,0 +1,38 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "seeddelight:milk_cherry_mouss_from_milk_bottle"
+        },
+        "pattern": [
+            "ab",
+            "cd"
+        ],
+        "key": {
+            "a": {
+                "item": "seeddelight:cherry"
+            },
+            "b": {
+                "item": "farmersdelight:milk_bottle"
+            },
+            "c": {
+                "item": "minecraft:sugar"
+            },
+            "d": {
+                "item": "minecraft:egg"
+            }
+        },
+        "result": [
+            {
+                "count": 1,
+                "item": "seeddelight:milk_cherry_mouss"
+            },
+            {
+                "item": "minecraft:glass_bottle"
+            }
+        ],
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

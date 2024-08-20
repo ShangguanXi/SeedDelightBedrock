@@ -1,0 +1,61 @@
+{
+    "dependencies": [
+        {
+            "uuid": "3ae79aae-418a-448f-afca-aaf838d5f05f",
+            "version": [
+                3,
+                0,
+                0
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.13.0"
+        }
+    ],
+    "format_version": 2,
+    "header": {
+        "description": "pack.description",
+        "min_engine_version": [
+            1,
+            21,
+            20
+        ],
+        "name": "pack.name",
+        "uuid": "8c3327d0-f14f-44ee-9ce7-66254a5a1741",
+        "version": [
+            3,
+            0,
+            0
+        ]
+    },
+    "metadata": {
+        "authors": [
+            "Moaswies"
+        ]
+    },
+    "modules": [
+        {
+            "description": "pack.description",
+            "type": "data",
+            "uuid": "d03332cc-e286-4745-a029-9e7a8e436cfb",
+            "version": [
+                3,
+                0,
+                0
+            ]
+        },
+        {
+            "description": "脚本",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "c8294459-77f9-1f71-be52-f38c9e18abb0",
+            "version": [
+                3,
+                0,
+                0
+            ],
+            "entry": "scripts/main.js"
+        }
+    ]
+}

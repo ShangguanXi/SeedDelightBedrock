@@ -1,0 +1,41 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "seeddelight:cherry_ice_cream_from_milk_bottle"
+        },
+        "pattern": [
+            "abc",
+            "de"
+        ],
+        "key": {
+            "a": {
+                "item": "farmersdelight:milk_bottle"
+            },
+            "b": {
+                "item": "minecraft:bowl"
+            },
+            "d": {
+                "item": "seeddelight:cherry"
+            },
+            "e": {
+                "item": "minecraft:ice"
+            },
+            "f": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "result": [
+            {
+                "count": 1,
+                "item": "seeddelight:cherry_ice_cream"
+            },
+            {
+                "item": "minecraft:glass_bottle"
+            }
+        ],
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

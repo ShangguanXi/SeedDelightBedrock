@@ -1,0 +1,14 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "seeddelight:campfire_dried_pumpkin_seed"
+        },
+        "input": "minecraft:pumpkin_seeds",
+        "output": "seeddelight:dried_pumpkin_seed",
+        "tags": [
+            "campfire",
+            "soul_campfire"
+        ]
+    }
+}

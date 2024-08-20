@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "seeddelight:rosehip"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:double_plant",
+                "data": 4
+            }
+        ],
+        "result": {
+            "count": 3,
+            "item": "seeddelight:rosehip"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

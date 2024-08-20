@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "seeddelight:rosehip_cake"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:wheat"
+            },
+            {
+                "item": "seeddelight:rosehip"
+            },
+            {
+                "item": "minecraft:wheat"
+            }
+        ],
+        "result": {
+            "count": 3,
+            "item": "seeddelight:rosehip_cake"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

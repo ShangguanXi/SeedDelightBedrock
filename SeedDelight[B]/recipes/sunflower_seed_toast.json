@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "seeddelight:sunflower_seed_toast"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:wheat"
+            },
+            {
+                "item": "minecraft:wheat"
+            },
+            {
+                "item": "seeddelight:sunflower_seed"
+            },
+            {
+                "item": "seeddelight:sunflower_seed"
+            }
+        ],
+        "result": {
+            "count": 1,
+            "item": "seeddelight:sunflower_seed_toast"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

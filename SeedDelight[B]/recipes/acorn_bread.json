@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "seeddelight:acorn_bread"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:wheat"
+            },
+            {
+                "item": "minecraft:wheat"
+            },
+            {
+                "item": "seeddelight:acorn_kernel"
+            },
+            {
+                "item": "seeddelight:acorn_kernel"
+            }
+        ],
+        "result": {
+            "count": 1,
+            "item": "seeddelight:acorn_bread"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

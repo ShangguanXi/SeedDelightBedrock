@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "rosehip_jam_jar"
+        }
+      }
+    },
+    "description": {
+      "identifier": "seeddelight:rosehip_jam_jar",
+      "menu_category": {
+        "category": "items",
+        "group": "itemGroup.name.items"
+      }
+    }
+  }
+}

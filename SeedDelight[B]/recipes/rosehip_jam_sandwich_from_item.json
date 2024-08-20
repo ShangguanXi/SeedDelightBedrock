@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "seeddelight:rosehip_jam_sandwich_from_item"
+        },
+        "pattern": [
+            "ab",
+            "b"
+        ],
+        "key": {
+            "b": {
+                "item": "minecraft:bread"
+            },
+            "a": {
+                "item": "seeddelight:rosehip_jam_jar"
+            }
+        },
+        "result": [
+            {
+                "count": 2,
+                "item": "seeddelight:rosehip_jam_sandwich"
+            },
+            {
+                "item": "minecraft:glass_bottle"
+            }
+        ],
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

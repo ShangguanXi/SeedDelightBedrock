@@ -1,0 +1,114 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "sunflower_seed_toast": {
+            "textures": "textures/items/sunflower_seed_toast"
+        },
+        "sunflower_seed_crisp": {
+            "textures": "textures/items/sunflower_seed_crisp"
+        },
+        "sunflower_seed": {
+            "textures": "textures/items/sunflower_seed"
+        },
+        "stir_fried_cabbage_with_acorn": {
+            "textures": "textures/items/stir_fried_cabbage_with_acorn"
+        },
+        "seed_tart": {
+            "textures": "textures/items/seed_tart"
+        },
+        "seed_rosehip_pie": {
+            "textures": "textures/items/seed_rosehip_pie"
+        },
+        "rose_cookie": {
+            "textures": "textures/items/rose_cookie"
+        },
+        "rosehip_tea": {
+            "textures": "textures/items/rosehip_tea"
+        },
+        "rosehip_pie_slice": {
+            "textures": "textures/items/rosehip_pie_slice"
+        },
+        "rosehip_pie": {
+            "textures": "textures/items/rosehip_pie"
+        },
+        "rosehip_jam_sandwich": {
+            "textures": "textures/items/rosehip_jam_sandwich"
+        },
+        "rosehip_jam_jar": {
+            "textures": "textures/items/rosehip_jam_jar"
+        },
+        "rosehip_cake": {
+            "textures": "textures/items/rosehip_cake"
+        },
+        "rosehip": {
+            "textures": "textures/items/rosehip"
+        },
+        "roasted_beef_with_seed": {
+            "textures": "textures/items/roasted_beef_with_seed"
+        },
+        "raw_acorn_noodle": {
+            "textures": "textures/items/raw_acorn_noodle"
+        },
+        "pine_nut_kernel": {
+            "textures": "textures/items/pine_nut_kernel"
+        },
+        "pine_needle_wine": {
+            "textures": "textures/items/pine_needle_wine"
+        },
+        "pinenut_with_meatballs": {
+            "textures": "textures/items/pinenut_with_meatballs"
+        },
+        "pinenut_gruel": {
+            "textures": "textures/items/pinenut_gruel"
+        },
+        "pinenut_cake": {
+            "textures": "textures/items/pinenut_cake"
+        },
+        "pinecone": {
+            "textures": "textures/items/pinecone"
+        },
+        "milk_cherry_mouss": {
+            "textures": "textures/items/milk_cherry_mouss"
+        },
+        "fried_sunflower_seed": {
+            "textures": "textures/items/fried_sunflower_seed"
+        },
+        "dried_watermelon_seed": {
+            "textures": "textures/items/dried_watermelon_seed"
+        },
+        "dried_pumpkin_seed": {
+            "textures": "textures/items/dried_pumpkin_seed"
+        },
+        "cherry_wine": {
+            "textures": "textures/items/cherry_wine"
+        },
+        "cherry_pork": {
+            "textures": "textures/items/cherry_pork"
+        },
+        "cherry_jam_sandwich": {
+            "textures": "textures/items/cherry_jam_sandwich"
+        },
+        "cherry_jam_jar": {
+            "textures": "textures/items/cherry_jam_jar"
+        },
+        "cherry_ice_cream": {
+            "textures": "textures/items/cherry_ice_cream"
+        },
+        "cherry": {
+            "textures": "textures/items/cherry"
+        },
+        "acorn_tofu": {
+            "textures": "textures/items/acorn_tofu"
+        },
+        "acorn_kernel": {
+            "textures": "textures/items/acorn_kernel"
+        },
+        "acorn_bread": {
+            "textures": "textures/items/acorn_bread"
+        },
+        "acorn": {
+            "textures": "textures/items/acorn"
+        }
+    },
+    "texture_name": "atlas.items"
+}

@@ -1,0 +1,14 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "seeddelight:campfire_dried_watermelon_seed"
+        },
+        "input": "minecraft:melon_seeds",
+        "output": "seeddelight:dried_watermelon_seed",
+        "tags": [
+            "campfire",
+            "soul_campfire"
+        ]
+    }
+}

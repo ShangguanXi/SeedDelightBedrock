@@ -1,0 +1,39 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "seeddelight:rosehip_pie_from_milk_bottle"
+        },
+        "key": {
+            "a": {
+                "item": "seeddelight:rosehip"
+            },
+            "b": {
+                "item": "farmersdelight:milk_bottle"
+            },
+            "c": {
+                "item": "minecraft:sugar"
+            },
+            "d": {
+                "item": "farmersdelight:pie_crust"
+            }
+        },
+        "pattern": [
+            "aaa",
+            "bbb",
+            "cdc"
+        ],
+        "result": [
+            {
+                "count": 1,
+                "item": "seeddelight:rosehip_pie"
+            },
+            {
+                "item": "minecraft:glass_bottle"
+            }
+        ],
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "components": {
+      "minecraft:block_placer": {
+        "block": "seeddelight:rosehip_pie_block"
+      },
+      "minecraft:tags": {
+          "tags": [
+              "farmersdelight:can_cut.tag.farmersdelight:is_knife"
+          ]
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "rosehip_pie"
+        }
+      }
+    },
+    "description": {
+      "identifier": "seeddelight:rosehip_pie",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    }
+  }
+}
