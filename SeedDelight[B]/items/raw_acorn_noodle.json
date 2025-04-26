@@ -1,5 +1,5 @@
 {
-  "format_version": "1.20.80",
+  "format_version": "1.21.70",
   "minecraft:item": {
     "components": {
       "minecraft:icon": {
@@ -17,7 +17,7 @@
       "identifier": "seeddelight:raw_acorn_noodle",
       "menu_category": {
         "category": "nature",
-        "group": "itemGroup.name.rawFood"
+        "group": "farmersdelight:itemGroup.name.rawFood"
       }
     }
   }

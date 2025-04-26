@@ -53,7 +53,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/sunflower_seed"
             }, 
-            "identifier": "farmersdelight:stove_sunflower_seed"
+            "identifier": "seeddelight:stove_sunflower_seed"
         }
     }
 }

@@ -3,9 +3,6 @@
     "minecraft:block": {
         "description": {
             "identifier": "seeddelight:rosehip_pie_block",
-            "menu_category": {
-                "category": "none"
-            },
             "states": {
                 "farmersdelight:food_block_stage": [
                     0,
