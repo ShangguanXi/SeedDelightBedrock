@@ -51,7 +51,7 @@
     ],
     "controls": [
       {
-        "acorn_tofu@chest.cooking_pot_recipe": {
+        "acorn_tofu@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             37.5,
@@ -63,7 +63,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/acorn_kernel",
                 "$cell1": "textures/items/acorn_kernel",
                 "$cell2": "textures/items/acorn_kernel",
@@ -76,7 +76,7 @@
         }
       },
       {
-        "cherry_jam_jar@chest.cooking_pot_recipe": {
+        "cherry_jam_jar@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             -37.5,
@@ -88,7 +88,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/cherry",
                 "$cell1": "textures/items/cherry",
                 "$cell2": "textures/items/sugar",
@@ -111,7 +111,7 @@
       1,
       1
     ],
-    "grid_item_template": "chest.seeddelight_recipe_part_0"
+    "grid_item_template": "cooking_pot.seeddelight_recipe_part_0"
   },
   "seeddelight_recipe_part_1": {
     "type": "panel",
@@ -121,7 +121,7 @@
     ],
     "controls": [
       {
-        "cherry_pork@chest.cooking_pot_recipe": {
+        "cherry_pork@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             37.5,
@@ -133,7 +133,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/porkchop_raw",
                 "$cell1": "textures/items/cherry",
                 "$cell2": "textures/items/onion",
@@ -145,7 +145,7 @@
         }
       },
       {
-        "cherry_wine@chest.cooking_pot_recipe": {
+        "cherry_wine@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             -37.5,
@@ -157,7 +157,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/cherry",
                 "$cell1": "textures/items/cherry",
                 "$container": "textures/items/potion_bottle_empty",
@@ -179,7 +179,7 @@
       1,
       1
     ],
-    "grid_item_template": "chest.seeddelight_recipe_part_1"
+    "grid_item_template": "cooking_pot.seeddelight_recipe_part_1"
   },
   "seeddelight_recipe_part_2": {
     "type": "panel",
@@ -189,7 +189,7 @@
     ],
     "controls": [
       {
-        "pine_needle_wine@chest.cooking_pot_recipe": {
+        "pine_needle_wine@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             37.5,
@@ -201,7 +201,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/pinecone",
                 "$cell1": "textures/items/pinecone",
                 "$cell2": "textures/items/sugar",
@@ -213,7 +213,7 @@
         }
       },
       {
-        "pinenut_gruel@chest.cooking_pot_recipe": {
+        "pinenut_gruel@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             -37.5,
@@ -225,7 +225,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/pine_nut_kernel",
                 "$cell1": "textures/items/rice",
                 "$container": "textures/items/bowl",
@@ -247,7 +247,7 @@
       1,
       1
     ],
-    "grid_item_template": "chest.seeddelight_recipe_part_2"
+    "grid_item_template": "cooking_pot.seeddelight_recipe_part_2"
   },
   "seeddelight_recipe_part_3": {
     "type": "panel",
@@ -257,7 +257,7 @@
     ],
     "controls": [
       {
-        "pinenut_with_meatballs@chest.cooking_pot_recipe": {
+        "pinenut_with_meatballs@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             37.5,
@@ -269,7 +269,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/pine_nut_kernel",
                 "$cell1": "textures/items/pine_nut_kernel",
                 "$cell2": "textures/items/minced_beef",
@@ -281,7 +281,7 @@
         }
       },
       {
-        "rosehip_jam_jar@chest.cooking_pot_recipe": {
+        "rosehip_jam_jar@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             -37.5,
@@ -293,7 +293,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/rosehip",
                 "$cell1": "textures/items/rosehip",
                 "$cell2": "textures/items/sugar",
@@ -316,7 +316,7 @@
       1,
       1
     ],
-    "grid_item_template": "chest.seeddelight_recipe_part_3"
+    "grid_item_template": "cooking_pot.seeddelight_recipe_part_3"
   },
   "seeddelight_recipe_part_4": {
     "type": "panel",
@@ -326,7 +326,7 @@
     ],
     "controls": [
       {
-        "roasted_beef_with_seed@chest.cooking_pot_recipe": {
+        "roasted_beef_with_seed@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             37.5,
@@ -338,10 +338,10 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "controls": [
                   {
-                    "cell0@chest.can_eat_seed": {
+                    "cell0@cooking_pot.can_eat_seed": {
                       "type": "image",
                       "offset": [
                         -23,
@@ -354,7 +354,7 @@
                     }
                   },
                   {
-                    "cell1@chest.can_eat_seed": {
+                    "cell1@cooking_pot.can_eat_seed": {
                       "type": "image",
                       "offset": [
                         -14.625,
@@ -415,7 +415,7 @@
         }
       },
       {
-        "rosehip_tea@chest.cooking_pot_recipe": {
+        "rosehip_tea@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             -37.5,
@@ -427,7 +427,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/rosehip",
                 "$cell1": "textures/items/rosehip",
                 "$container": "textures/items/potion_bottle_empty",
@@ -449,7 +449,7 @@
       1,
       1
     ],
-    "grid_item_template": "chest.seeddelight_recipe_part_4"
+    "grid_item_template": "cooking_pot.seeddelight_recipe_part_4"
   },
   "seeddelight_recipe_part_5": {
     "type": "panel",
@@ -459,7 +459,7 @@
     ],
     "controls": [
       {
-        "seed_rosehip_pie@chest.cooking_pot_recipe": {
+        "seed_rosehip_pie@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             37.5,
@@ -471,10 +471,10 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "controls": [
                   {
-                    "cell0@chest.cant_eat_seed": {
+                    "cell0@cooking_pot.cant_eat_seed": {
                       "type": "image",
                       "offset": [
                         -23,
@@ -487,7 +487,7 @@
                     }
                   },
                   {
-                    "cell1@chest.cant_eat_seed": {
+                    "cell1@cooking_pot.cant_eat_seed": {
                       "type": "image",
                       "offset": [
                         -14.625,
@@ -548,7 +548,7 @@
         }
       },
       {
-        "seed_tart@chest.cooking_pot_recipe": {
+        "seed_tart@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             -37.5,
@@ -560,7 +560,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/sunflower_seed",
                 "$cell1": "textures/items/acorn_kernel",
                 "$cell2": "textures/items/pine_nut_kernel",
@@ -585,7 +585,7 @@
       1,
       1
     ],
-    "grid_item_template": "chest.seeddelight_recipe_part_5"
+    "grid_item_template": "cooking_pot.seeddelight_recipe_part_5"
   },
   "seeddelight_recipe_part_6": {
     "type": "panel",
@@ -595,7 +595,7 @@
     ],
     "controls": [
       {
-        "stir_fried_cabbage_with_acorn@chest.cooking_pot_recipe": {
+        "stir_fried_cabbage_with_acorn@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             37.5,
@@ -607,7 +607,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/cabbage",
                 "$cell1": "textures/items/acorn",
                 "$cell2": "textures/items/acorn",
@@ -619,7 +619,7 @@
         }
       },
       {
-        "stir_fried_cabbage_with_acorn_2@chest.cooking_pot_recipe": {
+        "stir_fried_cabbage_with_acorn_2@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             -37.5,
@@ -631,7 +631,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/cabbage_leaf",
                 "$cell1": "textures/items/cabbage_leaf",
                 "$cell2": "textures/items/acorn",
@@ -655,7 +655,7 @@
       1,
       1
     ],
-    "grid_item_template": "chest.seeddelight_recipe_part_6"
+    "grid_item_template": "cooking_pot.seeddelight_recipe_part_6"
   },
   "seeddelight_recipe_part_7": {
     "type": "panel",
@@ -665,7 +665,7 @@
     ],
     "controls": [
       {
-        "sunflower_seed_crisp@chest.cooking_pot_recipe": {
+        "sunflower_seed_crisp@cooking_pot.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             0,
@@ -677,7 +677,7 @@
           ],
           "controls": [
             {
-              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
                 "$cell0": "textures/items/sunflower_seed",
                 "$cell1": "textures/items/sunflower_seed",
                 "$cell2": "textures/items/wheat",
@@ -700,7 +700,7 @@
       1,
       1
     ],
-    "grid_item_template": "chest.seeddelight_recipe_part_7"
+    "grid_item_template": "cooking_pot.seeddelight_recipe_part_7"
   },
   "recipe_grid_panel": {
     "modifications": [
@@ -709,28 +709,28 @@
         "operation": "insert_back",
         "value": [
           {
-            "seeddelight_recipe_grid_0@chest.seeddelight_recipe_grid_0": {}
+            "seeddelight_recipe_grid_0@cooking_pot.seeddelight_recipe_grid_0": {}
           },
           {
-            "seeddelight_recipe_grid_1@chest.seeddelight_recipe_grid_1": {}
+            "seeddelight_recipe_grid_1@cooking_pot.seeddelight_recipe_grid_1": {}
           },
           {
-            "seeddelight_recipe_grid_2@chest.seeddelight_recipe_grid_2": {}
+            "seeddelight_recipe_grid_2@cooking_pot.seeddelight_recipe_grid_2": {}
           },
           {
-            "seeddelight_recipe_grid_3@chest.seeddelight_recipe_grid_3": {}
+            "seeddelight_recipe_grid_3@cooking_pot.seeddelight_recipe_grid_3": {}
           },
           {
-            "seeddelight_recipe_grid_4@chest.seeddelight_recipe_grid_4": {}
+            "seeddelight_recipe_grid_4@cooking_pot.seeddelight_recipe_grid_4": {}
           },
           {
-            "seeddelight_recipe_grid_5@chest.seeddelight_recipe_grid_5": {}
+            "seeddelight_recipe_grid_5@cooking_pot.seeddelight_recipe_grid_5": {}
           },
           {
-            "seeddelight_recipe_grid_6@chest.seeddelight_recipe_grid_6": {}
+            "seeddelight_recipe_grid_6@cooking_pot.seeddelight_recipe_grid_6": {}
           },
           {
-            "seeddelight_recipe_grid_7@chest.seeddelight_recipe_grid_7": {}
+            "seeddelight_recipe_grid_7@cooking_pot.seeddelight_recipe_grid_7": {}
           }
         ]
       }
