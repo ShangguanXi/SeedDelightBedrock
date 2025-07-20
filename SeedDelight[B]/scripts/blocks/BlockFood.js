@@ -7,27 +7,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { GameMode, ItemComponentTypes, system, PlayerBreakBlockBeforeEvent, world } from "@minecraft/server";
+import { world, PlayerBreakBlockBeforeEvent, system } from "@minecraft/server";
 import { EventAPI } from "../lib/EventAPI";
-import { RandomAPI } from "../lib/RandomAPI";
 import { ItemAPI } from "../lib/ItemAPI";
-export class Cherry {
-    loot(args) {
-        const itemStack = args.itemStack;
-        const itemId = itemStack?.typeId;
-        const enchantment = itemStack?.getComponent(ItemComponentTypes.Enchantable)?.hasEnchantment('silk_touch');
-        const block = args.block;
+export class BlockFood {
+    break(args) {
         const player = args.player;
-        if (block.typeId != "minecraft:cherry_leaves")
+        const block = args.block;
+        if (block.typeId != "seeddelight:rosehip_pie")
             return;
-        if (player.getGameMode() == GameMode.Creative)
-            return;
-        if (((!enchantment) || itemId != "minecraft:shears")) {
-            if (RandomAPI.probability(25)) {
-                system.run(() => {
-                    ItemAPI.spawn(block, "seeddelight:cherry");
-                });
-            }
+        const stage = block.permutation.getState("farmersdelight:food_block_stage");
+        if (stage == 0) {
+            args.cancel = true;
+            system.runTimeout(() => {
+                ItemAPI.spawn(block, block.typeId);
+                block.dimension.setBlockType(block.location, "minecraft:air");
+                ItemAPI.damage(player, player.selectedSlotIndex);
+                block.dimension.playSound("dig.stone", block.location);
+            });
         }
     }
 }
@@ -36,5 +33,5 @@ __decorate([
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [PlayerBreakBlockBeforeEvent]),
     __metadata("design:returntype", void 0)
-], Cherry.prototype, "loot", null);
-//# sourceMappingURL=Cherry.js.map
+], BlockFood.prototype, "break", null);
+//# sourceMappingURL=BlockFood.js.map

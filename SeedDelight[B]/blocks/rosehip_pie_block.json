@@ -1,8 +1,8 @@
 {
-    "format_version": "1.21.0",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
-            "identifier": "seeddelight:rosehip_pie_block",
+            "identifier": "seeddelight:rosehip_pie",
             "states": {
                 "farmersdelight:food_block_stage": [
                     0,
@@ -95,9 +95,8 @@
             }
         ],
         "components": {
-            "minecraft:custom_components": [
-                "farmersdelight:interact"
-            ],
+            "minecraft:geometry": "geometry.pie",
+            "farmersdelight:interact": {},
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.5
             },
@@ -147,8 +146,7 @@
                     12.0
                 ]
             },
-            "tag:farmersdelight:pie":{},
-            "tag:farmersdelight.pie:3-tag.farmersdelight:is_knife":{}
+            "tag:farmersdelight.pie:3-tag.farmersdelight:is_knife": {}
         }
     }
 }

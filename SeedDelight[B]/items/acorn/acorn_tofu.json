@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.70",
+  "format_version": "1.21.90",
   "minecraft:item": {
     "components": {
       "minecraft:use_modifiers": {
@@ -9,6 +9,15 @@
         "nutrition": 5,
         "saturation_modifier": 0.6,
         "can_always_eat": false
+      },
+      "farmersdelight:cuttable": {
+        "loot": [
+          ["seeddelight:rosehip_pie_slice", 4]
+        ],
+        "tool": {
+          "type": "tag",
+          "name": "farmersdelight:is_knife"
+        }
       },
       "minecraft:use_animation": "eat",
       "minecraft:icon": {

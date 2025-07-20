@@ -1,7 +1,7 @@
 import { GameMode, ItemComponentTypes, system, PlayerBreakBlockBeforeEvent, world } from "@minecraft/server";
 import { EventAPI } from "../lib/EventAPI";
-import { ItemAPI } from "../lib/ItemAPI";
 import { RandomAPI } from "../lib/RandomAPI";
+import { ItemAPI } from "../lib/ItemAPI";
 
 export class Cherry {
     @EventAPI.register(world.beforeEvents.playerBreakBlock)
@@ -13,7 +13,7 @@ export class Cherry {
         const player = args.player;
         if (block.typeId!="minecraft:cherry_leaves")
             return
-        if (player.getGameMode() == GameMode.creative) 
+        if (player.getGameMode() == GameMode.Creative) 
             return;
         if (((!enchantment) || itemId != "minecraft:shears")) {
             if (RandomAPI.probability(25)) {
