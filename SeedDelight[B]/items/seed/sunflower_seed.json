@@ -7,8 +7,8 @@
           "default": "sunflower_seed"
         }
       },
-      "farmersdelight:cookable": {
-        "result": "seeddelight:fried_sunflower_seed"
+      "minecraft:compostable": {
+        "composting_chance": 35
       }
     },
     "description": {

@@ -15,6 +15,9 @@
         "textures": {
           "default": "rosehip_cake"
         }
+      },
+      "minecraft:compostable": {
+        "composting_chance": 65
       }
     },
     "description": {

@@ -15,6 +15,9 @@
         "textures": {
           "default": "seed_tart"
         }
+      },
+      "minecraft:compostable": {
+        "composting_chance": 65
       }
     },
     "description": {

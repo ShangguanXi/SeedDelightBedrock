@@ -6,6 +6,9 @@
         "textures": {
           "default": "acorn"
         }
+      },
+      "minecraft:compostable": {
+        "composting_chance": 35
       }
     },
     "description": {

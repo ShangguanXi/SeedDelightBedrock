@@ -15,6 +15,9 @@
         "textures": {
           "default": "sunflower_seed_crisp"
         }
+      },
+      "minecraft:compostable": {
+        "composting_chance": 65
       }
     },
     "description": {

@@ -9,14 +9,25 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { WorldLoadAfterEvent, system, world } from "@minecraft/server";
 import { EventAPI } from "../lib/EventAPI";
-let register = true;
-export class CookingPotRecipeRegister {
+import { cookingPotRecipes } from "../data/CookingPotRecipes";
+import { cuttingBoardRecipes } from "../data/CuttingBoardRecipes";
+import { cookRecipes } from "../data/CookRecipes";
+/**
+ * 通过农夫乐事的脚本事件注册配方
+ * @param id 脚本事件ID
+ * @param recipes 配方列表
+ */
+function sendRecipes(id, recipes) {
+    for (const recipe of recipes) {
+        system.sendScriptEvent(id, JSON.stringify(recipe));
+    }
+}
+export class RecipeRegister {
     register(args) {
-        system.runInterval(() => {
-            if (register) {
-                world.getDimension("overworld").runCommand("function seeddelight/recipe_registries");
-                register = false;
-            }
+        system.run(() => {
+            sendRecipes("farmersdelight:cooking_pot_recipe", cookingPotRecipes);
+            sendRecipes("farmersdelight:cutting_board_recipe", cuttingBoardRecipes);
+            sendRecipes("farmersdelight:cook", cookRecipes);
         });
     }
 }
@@ -25,5 +36,5 @@ __decorate([
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [WorldLoadAfterEvent]),
     __metadata("design:returntype", void 0)
-], CookingPotRecipeRegister.prototype, "register", null);
-//# sourceMappingURL=CookingPotRecipeRegister.js.map
+], RecipeRegister.prototype, "register", null);
+//# sourceMappingURL=RecipeRegister.js.map

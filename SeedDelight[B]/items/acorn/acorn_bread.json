@@ -20,6 +20,9 @@
           "tags": [
               "farmersdelight:bread"
           ]
+      },
+      "minecraft:compostable": {
+        "composting_chance": 85
       }
     },
     "description": {

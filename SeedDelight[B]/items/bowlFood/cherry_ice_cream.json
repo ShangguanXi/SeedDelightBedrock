@@ -16,6 +16,19 @@
         "textures": {
           "default": "cherry_ice_cream"
         }
+      },
+      "farmersdelight:consume_effects": [
+        {
+          "effect": "slowness",
+          "duration": 600
+        },
+        {
+          "effect": "haste",
+          "duration": 1200
+        }
+      ],
+      "minecraft:compostable": {
+        "composting_chance": 65
       }
     },
     "description": {

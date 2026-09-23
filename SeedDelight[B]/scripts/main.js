@@ -1,8 +1,8 @@
 import { BlockFood } from "./blocks/BlockFood";
 import { Cherry } from "./loot/Cherry";
-import { CookingPotRecipeRegister } from "./register/CookingPotRecipeRegister";
+import { RecipeRegister } from "./register/RecipeRegister";
 import { Food } from "./register/FoodRegister";
-new CookingPotRecipeRegister();
+new RecipeRegister();
 new Cherry();
 new Food();
 new BlockFood();

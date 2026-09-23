@@ -16,6 +16,9 @@
         "textures": {
           "default": "roasted_beef_with_seed"
         }
+      },
+      "minecraft:compostable": {
+        "composting_chance": 65
       }
     },
     "description": {

@@ -16,7 +16,13 @@
         "textures": {
           "default": "pine_needle_wine"
         }
-      }
+      },
+      "farmersdelight:consume_effects": [
+        {
+          "effect": "resistance",
+          "duration": 200
+        }
+      ]
     },
     "description": {
       "identifier": "seeddelight:pine_needle_wine",

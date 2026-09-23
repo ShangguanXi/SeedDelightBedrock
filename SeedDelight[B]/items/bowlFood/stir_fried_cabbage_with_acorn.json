@@ -16,6 +16,9 @@
         "textures": {
           "default": "stir_fried_cabbage_with_acorn"
         }
+      },
+      "minecraft:compostable": {
+        "composting_chance": 65
       }
     },
     "description": {

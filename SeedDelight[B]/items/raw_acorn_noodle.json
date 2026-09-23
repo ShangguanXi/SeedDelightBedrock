@@ -11,6 +11,9 @@
         "tags": [
           "farmersdelight:is_pasta"
         ]
+      },
+      "minecraft:compostable": {
+        "composting_chance": 65
       }
     },
     "description": {

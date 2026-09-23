@@ -16,6 +16,9 @@
         "textures": {
           "default": "pinenut_with_meatballs"
         }
+      },
+      "minecraft:compostable": {
+        "composting_chance": 65
       }
     },
     "description": {

@@ -16,6 +16,9 @@
         "textures": {
           "default": "cherry_pork"
         }
+      },
+      "minecraft:compostable": {
+        "composting_chance": 65
       }
     },
     "description": {

@@ -15,6 +15,15 @@
         "textures": {
           "default": "seed_rosehip_pie"
         }
+      },
+      "farmersdelight:consume_effects": [
+        {
+          "effect": "regeneration",
+          "duration": 100
+        }
+      ],
+      "minecraft:compostable": {
+        "composting_chance": 45
       }
     },
     "description": {

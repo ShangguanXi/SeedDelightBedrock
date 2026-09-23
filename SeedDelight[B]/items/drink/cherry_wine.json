@@ -16,7 +16,13 @@
         "textures": {
           "default": "cherry_wine"
         }
-      }
+      },
+      "farmersdelight:consume_effects": [
+        {
+          "effect": "haste",
+          "duration": 1800
+        }
+      ]
     },
     "description": {
       "identifier": "seeddelight:cherry_wine",

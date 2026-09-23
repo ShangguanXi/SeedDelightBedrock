@@ -20,6 +20,9 @@
         "tags": [
           "seeddelight:can_eat_seed"
         ]
+      },
+      "minecraft:compostable": {
+        "composting_chance": 35
       }
     },
     "description": {

@@ -15,6 +15,15 @@
         "textures": {
           "default": "rosehip_jam_sandwich"
         }
+      },
+      "farmersdelight:consume_effects": [
+        {
+          "effect": "regeneration",
+          "duration": 200
+        }
+      ],
+      "minecraft:compostable": {
+        "composting_chance": 85
       }
     },
     "description": {

@@ -16,7 +16,13 @@
         "textures": {
           "default": "rosehip_tea"
         }
-      }
+      },
+      "farmersdelight:consume_effects": [
+        {
+          "effect": "regeneration",
+          "duration": 200
+        }
+      ]
     },
     "description": {
       "identifier": "seeddelight:rosehip_tea",
